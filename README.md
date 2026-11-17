@@ -17,6 +17,10 @@ I came to engineering from the commercial side. Since 2007 I have sold and built
 | Rysy | Desktop AI workspace (Tauri, Rust, TypeScript): agents, mail and social in one place, with an approval gate in front of every action. In beta. |
 | [zbudujmi.com](https://zbudujmi.com) | Websites, shops and apps with a clickable preview before payment and a fixed price. |
 
+**Open source**
+
+[llm-gates](https://github.com/patrykostwald/llm-gates): deterministic gates for structured LLM output (schema, citations with effective dates, second-model comparison, PII scan, publish or review or reject). Standard library only, 128 tests, 100% coverage, and a benchmark against two naive baselines: 87% accuracy versus 32% for model agreement alone.
+
 **In numbers**
 
 - trybunal.ai: 3,667 Constitutional Tribunal cases catalogued; new AI diagnoses generated every night on our own A100 GPU and published only after code gates pass (PII scan, citation sanity, completeness, duplicates); when a second model from another provider disagrees, the case is marked as contested on the page.
