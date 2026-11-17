@@ -22,7 +22,7 @@ I run AI coding agents (Claude, Codex) the way a tech lead runs engineers: I wri
 <details>
 <summary><b>Background</b></summary>
 
-I came to engineering from the commercial side. Since 2007 I have sold and built businesses in B2B: sales director leading a team of 12 at Ponikholding, business development for the software houses STX Next and Crafton (US market), COO at C&O Partners. Co-owner of the software house notsosoft.it since 2022 and of iapply since 2024, where I now build the products myself. Polish native, fluent English. [LinkedIn](https://www.linkedin.com/in/patryk-ostwald-b969654b/)
+I came to engineering from the commercial side. Since 2007 I have sold and built businesses in B2B: sales director leading a team of 12 at Ponikholding, president of the board at Mennica Złoty Lew, business development for the software houses STX Next and Crafton (US market), COO at C&O Partners. Co-owner of the software house notsosoft.it since 2022 and of iapply since 2024, where I now build the products myself. Polish native, fluent English. [LinkedIn](https://www.linkedin.com/in/patryk-ostwald/)
 </details>
 
 **Stack:** Python · Django · Celery · PostgreSQL · TypeScript · Next.js · Rust · Tauri · Docker · Cloudflare Workers · LLM ensembles on own GPUs and APIs
