@@ -13,6 +13,11 @@ Applied AI engineer and CTO at [iapply](https://iapply.pl), Poznań. I build pro
 - [konsylium.ai](https://konsylium.ai): a council of independent AI models with fixed rules and an audit log, deployed on the client's infrastructure.
 - Rysy: desktop AI workspace (Tauri, Rust, TypeScript) with an approval gate in front of every action. In beta.
 
+**Client work**
+
+- [batyr.shop](https://batyr.shop): satirical streetwear brand on Shopify. Custom theme built from our own prototype, a product configurator (garment, cut, colour, embroidery or print, placement) and automated checks of print files, all shipped by a small agent team in weeks.
+- 20+ websites, shops and campaigns through [zbudujmi.com](https://zbudujmi.com).
+
 <details>
 <summary><b>How I build with AI agents</b></summary>
 
