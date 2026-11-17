@@ -1,43 +1,28 @@
 ### Patryk Ostwald
 
-CTO at [iapply](https://iapply.pl), Poznań. I build products on top of public data and AI, where every model output is checked by deterministic rules before anyone sees it.
-
-**Background**
-
-I came to engineering from the commercial side. Since 2007 I have sold and built businesses in B2B: sales director leading a team of 12 at Ponikholding (2022 to 2023), business development for the software houses STX Next and Crafton (US market), COO at C&O Partners. Co-owner of the software house notsosoft.it since 2022 and of iapply since 2024, where I now build the products myself. That mix shapes how I engineer: scope with the customer in mind, ship fast, measure what matters. Polish native, fluent English. [LinkedIn](https://www.linkedin.com/in/patryk-ostwald-b969654b/)
-
-**Products**
-
-| | |
-|---|---|
-| [spin.clinic](https://spin.clinic) | Shows how political messages are built: persuasion techniques in politicians' posts, with every claim checked against sources. Same yardstick for everyone. |
-| [przeszłość.today](https://przeszlosc.today) | Public figures on one timeline: statements, Sejm votes, KRS companies and public money, each link backed by a source. |
-| [trybunal.ai](https://trybunal.ai) | All 3,600+ cases of Poland's Constitutional Tribunal, the backlog year by year, and AI diagnoses of constitutional compliance, published daily. |
-| [konsylium.ai](https://konsylium.ai) | A council of independent AI models that reviews each result under fixed rules, deployed on the client's own infrastructure. |
-| Rysy | Desktop AI workspace (Tauri, Rust, TypeScript): agents, mail and social in one place, with an approval gate in front of every action. In beta. |
-| [zbudujmi.com](https://zbudujmi.com) | Websites, shops and apps with a clickable preview before payment and a fixed price. |
+Applied AI engineer and CTO at [iapply](https://iapply.pl), Poznań. I build production LLM systems where **models propose and code decides**: every output passes deterministic checks before anyone sees it.
 
 **Open source**
 
-[llm-gates](https://github.com/patrykostwald/llm-gates): deterministic gates for structured LLM output (schema, citations with effective dates, second-model comparison, PII scan, publish or review or reject). Standard library only, 128 tests, 100% coverage, and a benchmark against two naive baselines: 87% accuracy versus 32% for model agreement alone.
+[llm-gates](https://github.com/patrykostwald/llm-gates): deterministic gates for structured LLM output (schema, citations with effective dates, second-model comparison, PII scan, then publish, review or reject). Standard library only, 100% test coverage, and a public benchmark that lists every case the gate still misses.
 
-**In numbers**
+**Live products**
 
-- trybunal.ai: 3,667 Constitutional Tribunal cases catalogued; new AI diagnoses generated every night on our own A100 GPU and published only after code gates pass (PII scan, citation sanity, completeness, duplicates); when a second model from another provider disagrees, the case is marked as contested on the page.
-- spin.clinic and przeszłość.today: dozens of public-data harvesters (KRS, Sejm, BZP, TED), about 4,000 backend tests, CI green on every merge.
-- trybunal.ai: 436 tests, offline by default. Rysy: about 650 commits to a desktop beta with a security review before each release.
+- [trybunal.ai](https://trybunal.ai): 3,667 Constitutional Tribunal cases with nightly AI compliance diagnoses on our own A100 GPU. A diagnosis goes live on its own only when a second model from another provider agrees and every cited article checks out against the constitution; everything else waits for a human.
+- [spin.clinic](https://spin.clinic) and [przeszłość.today](https://przeszlosc.today): public-data platform for political communication and journalism. Harvesters for the Sejm, KRS, BZP and TED registers, a council of independent models, about 4,000 backend tests.
+- [konsylium.ai](https://konsylium.ai): a council of independent AI models with fixed rules and an audit log, deployed on the client's infrastructure.
+- Rysy: desktop AI workspace (Tauri, Rust, TypeScript) with an approval gate in front of every action. In beta.
 
-**How I build with AI agents**
+<details>
+<summary><b>How I build with AI agents</b></summary>
 
-I run a small team of AI coding agents (Claude, Codex) the way a tech lead runs engineers: I write the brief and the acceptance tests, agents implement, a second agent reviews, and I approve every merge and run every production deploy myself. Commits co-authored by agents are labelled as such. Architecture, data model, gates and trade-offs are my decisions.
+I run AI coding agents (Claude, Codex) the way a tech lead runs engineers: I write the brief and the acceptance tests, agents implement, a second agent reviews, and I approve every merge and run every production deploy. Agent commits are labelled. Architecture, data model, gates and trade-offs are my decisions. Evaluation is logged honestly, weak results included: agreement between models measures similarity, not accuracy.
+</details>
 
-**How I work**
+<details>
+<summary><b>Background</b></summary>
 
-- Models propose, code decides: structured outputs, citation checks and comparators between independent models.
-- Small, tested increments with CI on every merge. Evaluation logged honestly, including weak results: agreement between models measures similarity, not accuracy.
-- Engineering with agent teams: specialised AI agents build and review, a human owns the gate and every production deploy.
-- Privacy by design: public figures and public data only, GDPR and the EU AI Act considered from day one.
+I came to engineering from the commercial side. Since 2007 I have sold and built businesses in B2B: sales director leading a team of 12 at Ponikholding, business development for the software houses STX Next and Crafton (US market), COO at C&O Partners. Co-owner of the software house notsosoft.it since 2022 and of iapply since 2024, where I now build the products myself. Polish native, fluent English. [LinkedIn](https://www.linkedin.com/in/patryk-ostwald-b969654b/)
+</details>
 
-**Stack**
-
-Python · Django · Celery · PostgreSQL · TypeScript · Next.js · Rust · Tauri · Cloudflare Workers · Docker · LLM ensembles on own GPUs (A100) and APIs
+**Stack:** Python · Django · Celery · PostgreSQL · TypeScript · Next.js · Rust · Tauri · Docker · Cloudflare Workers · LLM ensembles on own GPUs and APIs
