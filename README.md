@@ -6,12 +6,20 @@ Applied AI engineer and CTO at [iapply](https://iapply.pl), Poznań. I build pro
 
 [llm-gates](https://github.com/patrykostwald/llm-gates): deterministic gates for structured LLM output (schema, citations with effective dates, second-model comparison, PII scan, then publish, review or reject). Standard library only, 100% test coverage, and a public benchmark that lists every case the gate still misses.
 
+[spinaker](https://github.com/patrykostwald/spinaker): the platform behind spin.clinic and przeszłość.today. Django, Celery and Next.js, with harvesters for public registers and an AI analysis pipeline.
+
 **Live products**
 
 - [trybunal.ai](https://trybunal.ai): 3,667 Constitutional Tribunal cases with nightly AI compliance diagnoses on our own A100 GPU. A diagnosis goes live on its own only when a second model from another provider agrees and every cited article checks out against the constitution; everything else waits for a human.
-- [spin.clinic](https://spin.clinic) and [przeszłość.today](https://przeszlosc.today): public-data platform for political communication and journalism. Harvesters for the Sejm, KRS, BZP and TED registers, a council of independent models, about 4,000 backend tests.
+- [spin.clinic](https://spin.clinic) and [przeszłość.today](https://przeszlosc.today): public-data platform for political communication and journalism. Harvesters for the Sejm, KRS, BZP and TED registers, a council of independent models, more than 3,000 backend tests.
+- [rysy.ai](https://rysy.ai): interactive showcase of the iapply studio. One continuous scene, a day on the trail to Rysy, built with AI agents so that every step stays visible.
 - [konsylium.ai](https://konsylium.ai): a council of independent AI models with fixed rules and an audit log, deployed on the client's infrastructure.
 - Rysy: desktop AI workspace (Tauri, Rust, TypeScript) with an approval gate in front of every action. In beta.
+
+**Games**
+
+- [Komet](https://komet.run): a browser game about trust, with grey dots, hunters and fog.
+- [Kociłapki](https://zbudujmi.com/kocilapki/): a cat-fishing PWA with levels, a pond and a ranking.
 
 **Client work**
 
