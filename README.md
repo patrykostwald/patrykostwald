@@ -18,8 +18,10 @@ Applied AI engineer and CTO at [iapply](https://iapply.pl), Poznań. I build pro
 
 **Games**
 
-- [Komet](https://komet.run): a browser game about trust, with grey dots, hunters and fog.
-- [Kociłapki](https://zbudujmi.com/kocilapki/): a cat-fishing PWA with levels, a pond and a ranking.
+- [Komet](https://github.com/patrykostwald/komet) ([play](https://komet.run)): a browser game about trust, with grey dots, hunters and fog.
+- [Kociłapki](https://github.com/patrykostwald/kocilapki) ([play](https://zbudujmi.com/kocilapki/)): a cat-fishing PWA with levels, a pond and a ranking.
+- [Harv](https://github.com/patrykostwald/harv) ([play](https://zbudujmi.com/harv/)): a calm arcade-puzzle game about mixing light in nebula gases, with a WebGL shader.
+- [Crumbi](https://github.com/patrykostwald/okruszek) ([play](https://zbudujmi.com/crumbi/)): a tiny bird flying through layered clouds, where speed brings the colour back.
 
 **Client work**
 
