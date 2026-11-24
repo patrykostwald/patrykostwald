@@ -12,9 +12,8 @@ Applied AI engineer and CTO at [iapply](https://iapply.pl), Poznań. I build pro
 
 - [trybunal.ai](https://trybunal.ai): 3,667 Constitutional Tribunal cases with nightly AI compliance diagnoses on our own A100 GPU. A diagnosis goes live on its own only when a second model from another provider agrees and every cited article checks out against the constitution; everything else waits for a human.
 - [spin.clinic](https://spin.clinic) and [przeszłość.today](https://przeszlosc.today): public-data platform for political communication and journalism. Harvesters for the Sejm, KRS, BZP and TED registers, a council of independent models, more than 3,000 backend tests.
-- [rysy.ai](https://rysy.ai): interactive showcase of the iapply studio. One continuous scene, a day on the trail to Rysy, built with AI agents so that every step stays visible.
+- [rysy.ai](https://rysy.ai): one summer day on the trail from Palenica to Rysy, drawn on 1 m lidar terrain. Every fact carries its source and licence, with a school-group checklist and an accessibility panel. Built with AI agents and checked by a human.
 - [konsylium.ai](https://konsylium.ai): a council of independent AI models with fixed rules and an audit log, deployed on the client's infrastructure.
-- Rysy: desktop AI workspace (Tauri, Rust, TypeScript) with an approval gate in front of every action. In beta.
 
 **Games**
 
